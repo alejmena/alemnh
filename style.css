@@ -13,13 +13,17 @@ body {
     position: relative; 
     background: linear-gradient(13deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);
 }
-p {
-    font-size: 36px;
+.texto {
+    width: 1600px;
+}
+marquee {
+    font-size: 60px;
     color: white;
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 8px;
+    line-height: 50px;
 }
 .container {
     top: 25%;
@@ -32,4 +36,18 @@ video {
     width: 100%;
     height: 100%;
     position: relative;
+    z-index: 10;
 }
+.rnb {
+    top: -140px;
+    width: 1920px;
+    height: 250px;
+    position: relative;
+}
+.spn {
+    width: 1000px;
+    top: -120px;
+    right: -400px;
+    position: relative;
+}
+    
